@@ -21,9 +21,11 @@ const routes = [
         { path: '/users', component: Users },
         { path: '/rights', component: Rights },
         { path: '/roles', component: Roles },
-
+        { path: '/categories', component:()=>import('@/components/goods/Cate.vue')}
       ]
-  }
+  },
+  
+
 ]
 
 const router = new VueRouter({
