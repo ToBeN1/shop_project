@@ -22,7 +22,10 @@ const routes = [
         { path: '/rights', component: Rights },
         { path: '/roles', component: Roles },
         { path: '/categories', component:()=>import('@/components/goods/Cate.vue')},
-        { path: '/params', component:()=>import('@/components/goods/Params.vue')}
+        { path: '/params', component:()=>import('@/components/goods/Params.vue')},
+        { path: '/goods', component:()=>import('@/components/goods/List.vue')},
+        { path: '/goods/add', component:()=>import('@/components/goods/Add.vue')},
+
       ]
   },
   
