@@ -7,6 +7,7 @@ import Users from '@/components/user/Users.vue'
 import Rights from '@/components/power/Rights.vue'
 import Roles from '@/components/power/Roles.vue'
 import Order from '@/components/order/Order.vue'
+import Report from '@/components/report/Report.vue'
 
 
 Vue.use(VueRouter)
@@ -28,6 +29,7 @@ const routes = [
         { path: '/goods', component:()=>import('@/components/goods/List.vue')},
         { path: '/goods/add', component:()=>import('@/components/goods/Add.vue')},
         { path: '/orders', component: Order },
+        { path: '/reports', component: Report },
       ]
   },
   
